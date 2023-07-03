@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "prime-odyssey-387405",
+  "private_key_id": "6d5704fbd25ef02af99c9cfe07d5fd920b49dab6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDL3JuJ7ZastH71\nkyfQysQuCyUdjOQRiP5g97GX0q8CEr1WCCLBxYktuP6GoVjvZeNaN9aSmNv9NBNL\n+SnM3AoS2jGcVDufF1VKVqrBK8tyl3xXJUhmAEo+BZTu/5bSc5VJmAPlEpHHjz32\nmHir205FXtK1qcZLyQu5Q1vNf1EFs/ZfUfllB1W7TlWSAQ1mTkD7OQDNrPosuxBX\n89aXhWmlHIlw9FbX0uDFBvCvSdyYrxoc2HM7lDPa2Dd2r4MeCeyQdNZwcCbhDmNo\nbCCYXlUqEDPpMf5Z7OzRQwBFOALqxm3yIB3tNGvABPvysVOdQ4Zn0Bvbf87tUv0X\nzplNlDVLAgMBAAECggEAA1zTL/Y8SwL7KR/RQ09k5wGGDjO5u1RQJddQFZoDCvy2\nJMojkKCqf5eSkzPsHJ7Inj9Xibl9v3JxcwpcFyX2AJOax+JXzWr8HCrLzD3lsDEx\netqBlDUjBFzhNQQAP95qMvmP7uJchzckpYGkU+ldJCXJQffX7n4VdGvZAs27z2U9\n+LA9vwdCGJ7lLCEZifKRzYJT5Gl7sq6Cpz/s4u/LzQARC8X/1M4rmwauFWqlUzSC\nPBpuJ4xq7TlR89d+a7VA4pNpM//NcU79gpit95WxockX4nE3BMZS3l8jABY0S3q3\nWDUZsGttAs0/YGdYj38Hrtc9QLe3rknm/2ReQUO/IQKBgQDz1OYkgzgLWrAft2uK\n/YIMtFVjGk5rH3+MDe9OBPipj9b+tq0PgMf/RhIhoimEH/ucc8fqmA2DGNRq9/NF\nEE2T1jgILly4nYrPcT24okZZn5EWYBFNMb1+UZTQvcLsgws0ycf4PcHYRqxBz+Vc\nk9V4n3GkTLXc+VEDZarc5tIyUQKBgQDWCRGARjgr20qppuSvZL8AZSvAGdKSzT4K\n28KqeFaUyy3ZY5enTCYEf5lfA3sbpQaCfRiGRo7d1o8+IRYrxVi+IDxiaK0FU8B7\nq9QLii9gT9SvSd+x3rDRj4vCTaAZFcovOrXzl/mycXhrHxLILy5Os4wmk4hAkz96\n7bslZgwK2wKBgQDSFibxYMoiJlJIEY6so/6wmZRUni7g57PK5ZrB21CxMEkrEBSO\nngQ0M5iduA4TVEdDpxKiU76YrQUg4WCOqhxde56tldy4CK24TLbEZbU9tVmaMM3X\neDrwIrSZIldX1xUJt63/ep6RjVsQHWNe39V3Z9HPoXS032/pAGk2if6j8QKBgQCt\nI+LTaHpSB/AK8yX1OENGN5E/sePku0DgGcwMiJJJhV7Oh0ELpY7vfqT79l3lDAcL\nEdT/8h3qGIIBmVRNDjRugLc4SEMGlyyTHnnG5/7RI2MCdXkOcv2IWF2PTaogAL9w\nm0bLCfqEvkPSK+3OoFQOeDH8lsXWrwbgE2WbqEQ/lwKBgCgr4e5D0b1DWN1Ka63H\nhOBeDevPyIKc5Shn75uhPox8ImbI5nRFP4hhEEOx9kuwwKpGYwUUTPOSTVs/sknL\nA02rnCv+YURReBpPRjLpb5cXuxdXXBAsHvRuWwCRgKOYC+KLmut7eJr+5KRlnHRL\nRioQcUp9f4MCZEjW7xRVNKMl\n-----END PRIVATE KEY-----\n",
+  "client_email": "script-python@prime-odyssey-387405.iam.gserviceaccount.com",
+  "client_id": "115960741278257872727",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/script-python%40prime-odyssey-387405.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
