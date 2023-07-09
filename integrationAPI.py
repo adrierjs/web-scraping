@@ -6,7 +6,7 @@ options.headless = True
 driver = uc.Chrome(use_subprocess=True, options=options)
 driver.get("https://steamdb.info/sales/")
 driver.maximize_window()
-time.sleep(5)
-driver.save_screenshot("datacamp.png")
+time.sleep(20)
+driver.save_screenshot("validation.png")
 data_site = driver.page_source
 driver.close()
