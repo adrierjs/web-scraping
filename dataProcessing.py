@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 from integrationAPI import data_site
 from datetime import datetime
+
 def treating_data():
     soup = BeautifulSoup(data_site, 'html.parser')
     tr_elements = soup.find_all('tr')
