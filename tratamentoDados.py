@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from integrationAPI import data_site
-
+from datetime import datetime
 soup = BeautifulSoup(data_site, 'html.parser')
 tr_elements = soup.find_all('tr')
 data_convertidos = []
@@ -16,12 +16,16 @@ for row in tr_elements[1:]:
     rating_element = td_elements[5]
     if rating_element:
         rating = rating_element.text.strip()
-    if 'title' in td_elements[6].attrs:
-        ends_in = td_elements[6]['title']
-    if 'title' in td_elements[7].attrs:
-        started = td_elements[7]['title']
-    release = (td_elements[8] if td_elements else '').text.strip()
-
+    if 'data-sort' in td_elements[6].attrs:
+        ends_in = td_elements[6]['data-sort']
+        ends_in = datetime.fromtimestamp(int(ends_in)).strftime('%Y-%m-%d %H:%M:%S')
+    if 'data-sort' in td_elements[7].attrs:
+        started = (td_elements[7]['data-sort'])
+        started = datetime.fromtimestamp(int(started)).strftime('%Y-%m-%d %H:%M:%S')
+    if 'data-sort' in td_elements[8].attrs:
+        release = td_elements[8]['data-sort']
+        release = datetime.fromtimestamp(int(release)).strftime('%Y-%m-%d %H:%M:%S')
+    
     data_convertidos.append({
         'name': name,
         'discount_percentage': discount_percentage,
@@ -31,6 +35,5 @@ for row in tr_elements[1:]:
         'started': started,
         'release': release
     })
-
 
 
